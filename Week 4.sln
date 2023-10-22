@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 Cinema App With Loops", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 Tardy Trains", "2 Tardy Trains\2 Tardy Trains.csproj", "{14DE5215-6829-422F-8577-D68BA2C0075F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 Higher or Lower", "3 Higher or Lower\3 Higher or Lower.csproj", "{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{14DE5215-6829-422F-8577-D68BA2C0075F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DE5215-6829-422F-8577-D68BA2C0075F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DE5215-6829-422F-8577-D68BA2C0075F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
