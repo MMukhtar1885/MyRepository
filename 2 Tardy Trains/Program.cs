@@ -7,3 +7,15 @@ do
 {
     Console.WriteLine("How many minutes was the train late?"); 
 } while (MinutesLate > 0);
+
+if (MinutesLate < 0) 
+{
+    Console.WriteLine("How many minutes was the train late?");
+}
+
+else
+
+{
+    Console.WriteLine(MinutesLate + " out of " + MinutesLate + " trains were late ");
+
+}
