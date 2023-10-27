@@ -1,6 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World");
 
-//new project
+Console.WriteLine("Chose a Number");
 
-//4.5
+int i = int.Parse(Console.ReadLine());
+
+
+while (i > 0)
+{
+
+    Console.WriteLine("Chose a Number");
+}
