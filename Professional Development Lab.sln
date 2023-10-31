@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4 2 Tardy Trains", "2 Tard
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4 3 Higher or Lower", "3 Higher or Lower\W4 3 Higher or Lower.csproj", "{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summative 2", "Summative 2\Summative 2.csproj", "{983E0474-AB77-4607-8657-A2B8DDB3AAC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F342EA12-C45B-4F5E-8880-F5AC9AD4B451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983E0474-AB77-4607-8657-A2B8DDB3AAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983E0474-AB77-4607-8657-A2B8DDB3AAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983E0474-AB77-4607-8657-A2B8DDB3AAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983E0474-AB77-4607-8657-A2B8DDB3AAC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
