@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS Scheduling", "OS Scheduling\OS Scheduling.csproj", "{68BEEEAD-B110-4939-BACA-9BF603C25FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68BEEEAD-B110-4939-BACA-9BF603C25FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BEEEAD-B110-4939-BACA-9BF603C25FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BEEEAD-B110-4939-BACA-9BF603C25FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68BEEEAD-B110-4939-BACA-9BF603C25FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08AFECF7-FC79-454E-A690-52A919B513B3}
+	EndGlobalSection
+EndGlobal
