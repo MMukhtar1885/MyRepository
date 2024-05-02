@@ -10,52 +10,48 @@ class Program
         int tockCount = 0;
         int ticktockCount = 0;
         int shockCount = 0;
+        int numberCount = 0;
 
         for (int num = 1; num <= 100; num++)
         {
             string output = "";
 
-            // Check divisibility by 3
             if (num % 3 == 0)
-                output += "Tick";
-
-            // Check divisibility by 5
-            if (num % 5 == 0)
-                output += "Tock";
-
-            // Check divisibility by both 3 and 5
-            if (output == "TickTock")
-                ticktockCount++;
-            else if (!string.IsNullOrEmpty(output))
             {
-                // Check divisibility by 7 (special rule for SHOCK)
-                if (num % 7 == 0 && num % 3 != 0 && num % 5 != 0)
-                {
-                    output = "SHOCK";
-                    shockCount++;
-                }
+                output = "Tick";
+                tickCount++;
             }
 
-            // If no special output, display the number itself
-            if (string.IsNullOrEmpty(output))
-                output = num.ToString();
-
-            // Update counters
-            if (output == "Tick")
-                tickCount++;
-            else if (output == "Tock")
+            else if (num % 5 == 0)
+            {
+                output = "Tock";
                 tockCount++;
+            }
+
+            else if (num % 3 == 0 && num % 5 == 0)
+            {
+                output = "TikTock";
+                ticktockCount++;
+            }
+            else if (num % 7 == 0 && num % 3 != 0 && num % 5 != 0)
+            {
+                output = "SHOCK";
+                shockCount++;
+            }
+
+
+            else //(num % 3 != 0 && num % 5 != 0 && num % 7 != 0)
+            {
+                output = num.ToString();
+                numberCount++;
+            }
         }
 
-        // Calculate total numbers displayed
-        int totalNumbers = tickCount + tockCount + ticktockCount + shockCount;
-
-        // Print results
         Console.WriteLine($"Tick= {tickCount}");
         Console.WriteLine($"Tock= {tockCount}");
         Console.WriteLine($"TickTock= {ticktockCount}");
         Console.WriteLine($"SHOCK= {shockCount}");
-        Console.WriteLine($"numbers= {totalNumbers}");
+        Console.WriteLine($"numbers= {numberCount}");
     }
 }
 
