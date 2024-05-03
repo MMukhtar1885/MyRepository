@@ -35,7 +35,7 @@
 //Etc......Use this example to test your code from 1 - 100 (inclusive of the values 1 and 100) before changing it to run 1-10000:
 
 
-// TH BELOW ANSWER IS CORRECT
+// THE BELOW ANSWER IS CORRECT
 
 
 static void Main()
