@@ -1,4 +1,4 @@
-﻿//using System.Runtime.Intrinsics.X86;
+﻿////using System.Runtime.Intrinsics.X86;
 
 //Write a program that automatically plays the TickTock SHOCK game from 1 to 10,000 (inclusive of the values 1 and 10,000)
 
@@ -21,7 +21,7 @@
 
 //Numbers divisible by neither three, five nor seven should just output the number
 
- 
+
 
 //For example, a typical round of TickTock SHOCK would start as follows:
 
@@ -53,24 +53,18 @@ static void Main()
         {
             ticktockCount++;
         }
-
         else if (num % 3 == 0)
         {
             tickCount++;
         }
-
         else if (num % 5 == 0)
         {
             tockCount++;
         }
-
-
-        else if (num % 7 == 0 && num % 3 != 0 && num % 5 != 0)
+        else if (num % 7 == 0)
         {
             shockCount++;
         }
-
-
         else //(num % 3 != 0 && num % 5 != 0 && num % 7 != 0)
         {
             numberCount++;
