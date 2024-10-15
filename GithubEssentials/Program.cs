@@ -1,4 +1,5 @@
 using System;
+//lab 2
 
 class Program
 {
