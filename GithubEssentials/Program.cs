@@ -1,21 +1,34 @@
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
+using System;
 
+class Program
+{
+    static void Main()
+    {
+        string message = "Hello, World!";
+        ConsoleColor[] backgroundColors = (ConsoleColor[])ConsoleColor.GetValues(typeof(ConsoleColor));
+        Random rand = new Random();
+        
+        for (int i = 0; i < 20; i++) // Repeat printing multiple times
+        {
+            // Randomly pick background and foreground colors
+            ConsoleColor background = backgroundColors[rand.Next(backgroundColors.Length)];
+            ConsoleColor foreground = backgroundColors[rand.Next(backgroundColors.Length)];
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
+            // Ensure foreground and background colors are not the same
+            while (foreground == background)
+            {
+                foreground = backgroundColors[rand.Next(backgroundColors.Length)];
+            }
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
+            // Set console colors
+            Console.BackgroundColor = background;
+            Console.ForegroundColor = foreground;
 
-//what
-//nothing
+            // Print message
+            Console.WriteLine(message);
+        }
+
+        // Reset console colors
+        Console.ResetColor();
+    }
+}
