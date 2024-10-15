@@ -1,1 +1,17 @@
-﻿// why is it not displaying a message
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+
+
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+
+//nothing
