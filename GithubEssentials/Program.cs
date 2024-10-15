@@ -1,5 +1,5 @@
 using System;
-//lab 2
+//lab 2 task
 
 class Program
 {
