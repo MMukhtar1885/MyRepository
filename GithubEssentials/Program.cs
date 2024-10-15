@@ -8,7 +8,7 @@ class Program
         ConsoleColor[] backgroundColors = (ConsoleColor[])ConsoleColor.GetValues(typeof(ConsoleColor));
         Random rand = new Random();
         
-        for (int i = 0; i < 20; i++) // Repeat printing multiple times
+        for (int i = 0; i < 10000; i++) // Repeat printing multiple times
         {
             // Randomly pick background and foreground colors
             ConsoleColor background = backgroundColors[rand.Next(backgroundColors.Length)];
