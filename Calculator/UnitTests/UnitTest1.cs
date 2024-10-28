@@ -37,6 +37,22 @@ namespace UnitTests
             double result = calcObject.Subtract(32, 4);
             Assert.AreEqual(28, result);
         }
+
+        [TestMethod]
+        public void DivideNumbersTest()
+        {
+            Calculations calcObject = new Calculations();
+            double result = calcObject.Divide(32, 4);
+            Assert.AreEqual(8, result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentOutOfRangeException))]
+        public void DivideByZeroTest()
+        {
+            Calculations calcObject = new Calculations();
+            double result = calcObject.Divide(32, 0);
+        }
     }
 }
 

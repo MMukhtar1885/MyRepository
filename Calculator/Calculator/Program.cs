@@ -26,6 +26,10 @@ namespace Calculator
 
         public double Divide(int a, int b)
         {
+            if (b == 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
             return (a / b);
         }
     }
