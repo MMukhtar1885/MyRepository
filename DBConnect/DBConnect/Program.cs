@@ -1,12 +1,12 @@
 ﻿using MySql.Data;
 using MySql.Data.MySqlClient;
 
-string connStr ="server=localhost;user=root;database=world;port=3306;password=Mukhtar2580";
+string connStr ="server=localhost;user=root;database=world_connection;port=3306;password=Mukhtar2580";
 MySqlConnection conn = new MySqlConnection(connStr);
 
  static void Main()
  {
-string connStr ="server=localhost;user=root;database=world;port=3306;password=Mukhtar2580";
+string connStr ="server=localhost;user=root;database=world_connection;port=3306;password=Mukhtar2580";
  MySqlConnection conn = new MySqlConnection(connStr);
  try
  {
