@@ -37,26 +37,37 @@ else
     String operation = null;
     String update = null;
     String field = null;
-    //if (slice.Length == 2)
-    //{
-    //    operation = slice[1];
-    //    String[] pieces = operation.Split(new char[] { '=' }, 2);
-    //    field = pieces[0];
-    //    if (pieces.Length == 2) update = pieces[1];
-    //}
-    //Console.Write($"Operation on ID '{ID}'");
-    //if (operation == null)
-    //{
-    //    Console.WriteLine(" output all fields");
-    //}
-    //else if (update == null)
-    //{
-    //    Console.WriteLine($" lookup field '{field}'");
-    //}
-    //else
-    //{
-    //    Console.WriteLine($" update field '{field}' to '{update}'");
-    //}
+
+
+
+
+
+    if (slice.Length == 2)
+    {
+        operation = slice[1];
+        String[] pieces = operation.Split(new char[] { '=' }, 2);
+        field = pieces[0];
+        if (pieces.Length == 2) update = pieces[1];
+    }
+    Console.Write($"Operation on ID '{ID}'");
+    if (operation == null)
+    {
+        Console.WriteLine(" output all fields");
+    }
+    else if (update == null)
+    {
+        Console.WriteLine($" lookup field '{field}'");
+    }
+    else
+    {
+        Console.WriteLine($" update field '{field}' to '{update}'");
+    }
+
+
+
+
+
+
 
     Console.Write($"Operation on ID '{ID}'");
     if (operation == null) Dump(ID);
@@ -65,7 +76,7 @@ else
 
     /// Functions to process database requests
 
-  
+
 }
 
 void Dump(String ID)
